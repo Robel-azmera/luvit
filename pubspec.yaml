@@ -41,6 +41,7 @@ dependencies:
   smooth_page_indicator:
   outline_gradient_button:
   carousel_slider:
+  dots_indicator:
 
 dev_dependencies:
   flutter_test:
