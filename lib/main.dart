@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:luvit/screens/home.dart';
 
@@ -47,10 +48,10 @@ class _MyHomePageState extends State<MyHomePage> {
     Size size = MediaQuery.of(context).size;
 
     List<Widget> _widgetOptions = <Widget>[
-      HomeScreen(),
-      HomeScreen(),
-      HomeScreen(),
-      HomeScreen(),
+      const HomeScreen(),
+      const HomeScreen(),
+      const HomeScreen(),
+      const HomeScreen(),
     ];
     void _onItemTapped(int index) {
       setState(() {
@@ -61,6 +62,11 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 11, 11, 11),
       appBar: AppBar(
+        systemOverlayStyle: const SystemUiOverlayStyle(
+          statusBarColor: Colors.black,
+          statusBarIconBrightness: Brightness.light,
+          statusBarBrightness: Brightness.light,
+        ),
         leadingWidth: 35,
         leading: SvgPicture.asset(
           'assets/icons/loca.svg',

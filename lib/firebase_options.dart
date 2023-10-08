@@ -49,7 +49,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '393917891206',
     projectId: 'assinmentluvit',
     authDomain: 'assinmentluvit.firebaseapp.com',
-    databaseURL: 'https://assinmentluvit-default-rtdb.asia-southeast1.firebasedatabase.app',
+    databaseURL: 'https://assinmentluvit.firebaseio.com/',
     storageBucket: 'assinmentluvit.appspot.com',
   );
 
@@ -58,7 +58,7 @@ class DefaultFirebaseOptions {
     appId: '1:393917891206:android:ec177526fa08ac3b830707',
     messagingSenderId: '393917891206',
     projectId: 'assinmentluvit',
-    databaseURL: 'https://assinmentluvit-default-rtdb.asia-southeast1.firebasedatabase.app',
+    databaseURL: 'https://assinmentluvit.firebaseio.com/',
     storageBucket: 'assinmentluvit.appspot.com',
   );
 
@@ -67,9 +67,10 @@ class DefaultFirebaseOptions {
     appId: '1:393917891206:ios:b136a20c59d1b9f9830707',
     messagingSenderId: '393917891206',
     projectId: 'assinmentluvit',
-    databaseURL: 'https://assinmentluvit-default-rtdb.asia-southeast1.firebasedatabase.app',
+    databaseURL: 'https://assinmentluvit.firebaseio.com/',
     storageBucket: 'assinmentluvit.appspot.com',
-    iosClientId: '393917891206-q3ppblnva85cp6eggr0hs6vgjg13hpfi.apps.googleusercontent.com',
+    iosClientId:
+        '393917891206-q3ppblnva85cp6eggr0hs6vgjg13hpfi.apps.googleusercontent.com',
     iosBundleId: 'com.example.luvit',
   );
 
@@ -78,9 +79,10 @@ class DefaultFirebaseOptions {
     appId: '1:393917891206:ios:b136a20c59d1b9f9830707',
     messagingSenderId: '393917891206',
     projectId: 'assinmentluvit',
-    databaseURL: 'https://assinmentluvit-default-rtdb.asia-southeast1.firebasedatabase.app',
+    databaseURL: 'https://assinmentluvit.firebaseio.com/',
     storageBucket: 'assinmentluvit.appspot.com',
-    iosClientId: '393917891206-q3ppblnva85cp6eggr0hs6vgjg13hpfi.apps.googleusercontent.com',
+    iosClientId:
+        '393917891206-q3ppblnva85cp6eggr0hs6vgjg13hpfi.apps.googleusercontent.com',
     iosBundleId: 'com.example.luvit',
   );
 }
