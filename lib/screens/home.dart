@@ -115,6 +115,7 @@ class _HomeScreenState extends State<HomeScreen> {
     print(datas.length);
     return Container(
       height: size.height * 0.9,
+      width: size.height * 0.8,
       child: FirebaseAnimatedList(
         shrinkWrap: true,
         scrollDirection: Axis.horizontal,
@@ -589,13 +590,13 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         Container(
                           margin: EdgeInsets.symmetric(
-                              vertical: 10.0, horizontal: size.width * 0.125),
+                              vertical: 10.0, horizontal: size.width * 0.12),
                           child: AnimatedSmoothIndicator(
                             activeIndex: index,
                             count: datas.length,
                             effect: const ExpandingDotsEffect(
                               activeDotColor: Colors.pink,
-                              dotWidth: 30,
+                              dotWidth: 35,
                               dotHeight: 5,
                             ),
                           ),
